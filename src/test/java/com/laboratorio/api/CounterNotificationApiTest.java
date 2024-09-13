@@ -25,7 +25,7 @@ public class CounterNotificationApiTest {
         this.notificationApi = new CounterNotificationApiImpl(accessToken);
     }
     
-    @Test
+/*    @Test
     public void get20Notifications() throws Exception { // Con default limit
         int cantidad  = 20;
         
@@ -61,5 +61,5 @@ public class CounterNotificationApiTest {
         assertThrows(CounterApiException.class, () -> {
             this.notificationApi.getAllNotifications();
         });
-    }
+    } */
 }

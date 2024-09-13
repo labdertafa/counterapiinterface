@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.laboratorio</groupId>
     <artifactId>counterapiinterface</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
     <name>CounterSocial-Api-Interface</name>
     <description>Librería que ejecuta las API de la red social Counter Social</description>

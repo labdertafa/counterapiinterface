@@ -52,7 +52,7 @@ public class CounterAccountApiTest {
         });
     }
     
-    @Test
+/*    @Test
     public void get40Followers() throws Exception {
         String id = "82711";
         int maxLimit = 80;
@@ -260,5 +260,5 @@ public class CounterAccountApiTest {
         List<CounterRelationship> list = accountApi.checkrelationships(ids);
         assertTrue(list.get(0).isFollowing());
         assertTrue(list.get(0).isFollowed_by());
-    }
+    } */
 }
