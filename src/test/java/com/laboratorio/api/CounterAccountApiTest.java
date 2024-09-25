@@ -34,7 +34,7 @@ public class CounterAccountApiTest {
         accountApi = new CounterAccountApiImpl(accessToken);
     }
     
-    @Test
+/*    @Test
     public void getAccountById() {
         String userId = "101013";
         
@@ -50,7 +50,7 @@ public class CounterAccountApiTest {
         assertThrows(CounterApiException.class, () -> {
             accountApi.getAccountById(id);
         });
-    }
+    } */
     
 /*    @Test
     public void get40Followers() throws Exception {

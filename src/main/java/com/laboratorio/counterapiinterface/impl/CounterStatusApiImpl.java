@@ -57,6 +57,7 @@ public class CounterStatusApiImpl extends CounterBaseApi implements CounterStatu
             String uri = endpoint;
             
             ApiRequest request = new ApiRequest(uri, okStatus);
+            request.addApiHeader("Content-Type", "application/json");
             request.addApiHeader("Authorization", "Bearer " + this.accessToken);
             request.addFileFormData("file", filePath);
                         
